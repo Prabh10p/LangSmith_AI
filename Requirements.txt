@@ -1,0 +1,8 @@
+langchain-huggingface
+langgraph
+pandas
+numpy
+langsmith
+python-dotenv
+transformers
+streamlit
