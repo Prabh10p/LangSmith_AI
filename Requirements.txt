@@ -2,7 +2,11 @@ langchain-huggingface
 langgraph
 pandas
 numpy
+langchain_community
+sentence-transformers
+youtube-transcript-api
 langsmith
+faiss-cpu
 python-dotenv
 transformers
 streamlit
