@@ -9,8 +9,9 @@ from datetime import datetime, timedelta
 
 load_dotenv()
 api_key = os.getenv("WEATHER_API_KEY", "YOUR_WEATHERSTACK_KEY")
-hotel_api_key = "6904fde8bfaf6684c03b2d7b"  # Your hotel API key
-mapping_api_key = "6904fde8bfaf6684c03b2d7b"  # Your mapping API key
+hotel_api_key= os.getenv("HOTEL_API_KEY", "HOTEL_API_KEY")
+mapping_api_key = os.getenv("MAPPING_API_KEY", "MAPPING_API_KEY")
+
 
 # Step 1 - Models
 llm1 = HuggingFaceEndpoint(
