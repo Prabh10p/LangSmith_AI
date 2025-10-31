@@ -2,7 +2,7 @@ langchain-huggingface
 langgraph
 pandas
 numpy
-langchain_community
+langchain-community
 sentence-transformers
 youtube-transcript-api
 langsmith
